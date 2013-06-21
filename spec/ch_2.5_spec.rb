@@ -38,10 +38,10 @@ describe "Chapter 2.5" do
   end
 
   describe "Your age in seconds" do
-    it "should be seconds_per_year * my_age_years" do
-      my_age_years = 38
+    it "should be seconds_per_year * my_age_in_years" do
+      my_age_in_years = 38
       your_age_in_seconds(my_age_years).should ==
-        seconds_per_year * my_age_years
+        seconds_per_year * my_age_in_years
     end
   end
 
